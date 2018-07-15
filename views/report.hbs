@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <title>Peeq</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="/stylesheets/index.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body class="search__body search__parent">
+    <div class="container content">
+        <div class="row">
+            <div class="col-lg-3 col-1"></div>
+            <div class="col-lg-6 col-10 ">
+                <div class='well search_well text-justify'>
+                    <div class="row">
+                        <div class="col-lg-4 col-2"><div id="{{icon}}"></div></div>
+                        <div class="col-lg-8 col-10">
+                            <h1 class="search__content">Outside at {{loc}}, it's currently {{temp}} degrees fahrenheit </h1>
+                        </div>
+                    </div>
+                        
+                        {{!--<h1 class="search__title">{{icon}}</h1>--}}
+                </div>
+            </div>
+            <div class="col-lg-3 col-1"></div>
+        </div>
+    </div>
+    
+    <video autoplay muted loop id="myVideo">
+      <source src="https://i.imgur.com/W2zktoh.mp4" type="video/mp4">
+    </video>
+    
+    <script type="text/javascript" src="/js/report.js"></script>
+</body>

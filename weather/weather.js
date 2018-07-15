@@ -10,7 +10,8 @@ var getWeather = (lat, lng, callback) => {
                 if(!error && response.statusCode===200){
                     callback(undefined, {
                         temperature: body.currently.temperature,
-                        apperentTemp: body.currently.apparentTemperature
+                        apperentTemp: body.currently.apparentTemperature,
+                        icon: body.currently.icon
                     });
                 }
                 else
