@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <title>Peeq</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./stylesheets/index.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body class="search__body search__parent">
+    <div class="container content">
+        <div class="row">
+            <div class="col-lg-3 col-1"></div>
+            <div class="col-lg-6 col-10 ">
+                <div class='well search_well text-center'>
+                    <h1 class="search__title">Lets Peeq outside...</h1>
+                    <button class="btn btn-primary btn-block" id="here">Look just outside.</button>
+                    <h2>Somewhere specifically?</h2>
+                    
+                    <input class="form-control" type="text" value="" id="location-value">
+                    
+                    <button class="btn btn-danger" id="location">Lets Check over there.</button>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-1"></div>
+        </div>
+    </div>
+    
+    <video autoplay muted loop id="myVideo">
+      <source src="https://i.imgur.com/W2zktoh.mp4" type="video/mp4">
+    </video>
+    
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
